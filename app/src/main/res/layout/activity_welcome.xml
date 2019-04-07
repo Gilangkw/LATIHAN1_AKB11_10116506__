@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_get_start_timitory" />
+
+        <TextView
+            android:layout_width="377dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:text="@string/nama_judul"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:fontFamily="@font/nunito_bold"/>
+    </FrameLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:background="@drawable/borderaw">
+
+        <Button
+            android:id="@+id/btnMulai"
+            android:onClick="mulaiii"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/mulai"
+            android:background="@drawable/btn_rounded1"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

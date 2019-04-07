@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LAT1_AKB11_10116506</string>
+    <string name="nama_judul">Monitory Membantu Anak Anda mengontrol HP Anak </string>
+    <string name="mulai">MULAI</string>
+    <string name="kk">Kode Keluarga</string>
+    <string name="kkaybun">Ketikan Kode Keluarga Yang Ayah Bunda Miliki Disini</string>
+    <string name="dengan">Dengan menakan tombol masuk berarti Anda menyetujui <b>Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> kami</string>
+    <string name="bkk">Belum punya kode keluarga?</string>
+    <string name="buykk">Beli Kode Keluarga Disni</string>
+    <string name="napang">Nama Panggilan Kamu</string>
+    <string name="umkam">Umur Kamu</string>
+    <string name="selan">Selanjutnya</string>
+    <string name="sayhai">Beres! Sekarang kamu udah bisa ngecek penggunaan HP mu tiap hari buat bantu kamu ngatur waktu</string>
+    <string name="ok">Oke</string>
+</resources>

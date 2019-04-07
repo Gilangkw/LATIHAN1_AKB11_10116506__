@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginCode">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textfield1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/kk"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/nunito_bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textfield2"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/kkaybun"
+        android:textSize="18dp"
+        android:fontFamily="@font/nunito_bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/roundedtextfield"
+        android:inputType="textCapCharacters"
+        android:maxLength="8"
+        android:textAlignment="center"
+        android:hint="Masukkan Kode"
+        android:fontFamily="@font/nunito_bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/dengan"
+        android:textAlignment="center"
+        android:textSize="10dp"
+        android:fontFamily="@font/nunito_bold"
+        />
+    
+    <Button
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMasuk"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="30dp"
+        android:text="Masuk"
+        android:background="@drawable/btn_rounded1"
+        android:onClick="mulai"
+        android:fontFamily="@font/nunito_bold"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/borderaw">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/bkk"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:fontFamily="@font/nunito_bold"/>
+
+        <Button
+            android:id="@+id/btnDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/btn_rounded2"
+            android:text="@string/buykk"
+            android:textColor="@color/white"
+            android:fontFamily="@font/nunito_bold"
+            />
+
+    </RelativeLayout>
+    
+</RelativeLayout>
+
